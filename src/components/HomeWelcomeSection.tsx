@@ -163,7 +163,7 @@ const HomeWelcomeSection = () => {
             href="https://forms.gle/hA63kPj7jKZx9SD69"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary w-full md:w-auto inline-flex items-center justify-center gap-2 text-white font-bricolage px-8 md:px-10 py-4 rounded-xl font-semibold tracking-wide hover:bg-red-900 transition-all hover:-translate-y-1 shadow-lg hover:shadow-xl text-lg"
+            className="bg-primary w-full md:w-auto inline-flex items-center justify-center gap-2 text-white font-bricolage px-8 md:px-10 py-4 rounded-xl font-semibold tracking-wide hover:bg-red-900 transition-all hover:-translate-y-1 shadow-lg hover:shadow-xl text-sm md:text-lg"
           >
             <RiLogoutCircleRLine size={20} />
             Secure Your Spot • Register Now
