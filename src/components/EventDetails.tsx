@@ -60,7 +60,7 @@ const EventDetails = () => {
           className="text-white text-center text-sm md:text-base font-semibold mt-2"
           variants={fadeUp}
         >
-          December 2025 • Starts at 06:00 PM
+          Chrush servies starts from 06:00 PM
         </motion.p>
 
         {/* Event Address Section - MOVED HERE */}

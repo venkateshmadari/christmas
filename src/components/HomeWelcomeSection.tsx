@@ -99,7 +99,7 @@ const HomeWelcomeSection = () => {
           </motion.h2>
 
           <motion.h3
-            className="text-2xl md:text-4xl font-bold font-bricolage text-gray-800 text-center mt-2"
+            className="text-2xl md:text-4xl font-bold font-bricolage text-gray-800 text-center mt-2 -mb-5"
             variants={letter}
           >
             2025 Celebrations
@@ -108,7 +108,7 @@ const HomeWelcomeSection = () => {
 
         {/* EVENT DETAILS */}
         <motion.div
-          className="max-w-2xl text-center mt-6"
+          className="max-w-2xl text-center mt-3"
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.4 }}
@@ -121,12 +121,12 @@ const HomeWelcomeSection = () => {
             },
           }}
         >
-          <p className="text-gray-700 text-lg md:text-xl mb-6">
+          <p className="text-gray-700 text-lg md:text-xl mb-3">
             An evening of festive wonder, joyful celebrations, and spiritual
             renewal
           </p>
 
-          <div className="bg-linear-to-r from-red-50 to-emerald-50 p-6 md:p-8 rounded-2xl border border-gray-100 shadow-sm">
+          <div className="px-6 py-3 md:px-8">
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">
               Prepare for an enchanting Christmas celebration where we'll come
               together to share the joy of the season...
@@ -146,7 +146,7 @@ const HomeWelcomeSection = () => {
 
         {/* CTA BUTTON */}
         <motion.div
-          className="flex flex-col items-center gap-4 mt-8 md:mt-10 w-full max-w-md"
+          className="flex flex-col items-center gap-4 mt-3 md:mt-8 w-full max-w-md"
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
@@ -166,7 +166,7 @@ const HomeWelcomeSection = () => {
             className="bg-primary w-full md:w-auto inline-flex items-center justify-center gap-2 text-white font-bricolage px-8 md:px-10 py-4 rounded-xl font-semibold tracking-wide hover:bg-red-900 transition-all hover:-translate-y-1 shadow-lg hover:shadow-xl text-sm md:text-lg"
           >
             <RiLogoutCircleRLine size={20} />
-            Secure Your Spot • Register Now
+            Click here to register
           </a>
 
           {/* <p className="text-gray-500 text-sm">
