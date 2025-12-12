@@ -102,7 +102,7 @@ const HomeWelcomeSection = () => {
             className="text-2xl md:text-4xl font-bold font-bricolage text-gray-800 text-center mt-2 -mb-5"
             variants={letter}
           >
-            2025 Celebrations
+            Celebrations
           </motion.h3>
         </motion.div>
 
