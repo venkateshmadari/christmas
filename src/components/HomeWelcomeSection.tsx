@@ -136,11 +136,11 @@ const HomeWelcomeSection = () => {
               Christmas gathering filled with light, love, and lasting memories.
             </p>
 
-            <div className="mt-6 pt-6 border-t border-gray-200">
+            {/* <div className="mt-6 pt-6 border-t border-gray-200">
               <p className="text-primary font-semibold text-lg">
                 Save the Date • December 13, 2025
               </p>
-            </div>
+            </div> */}
           </div>
         </motion.div>
 
@@ -169,9 +169,9 @@ const HomeWelcomeSection = () => {
             Secure Your Spot • Register Now
           </a>
 
-          <p className="text-gray-500 text-sm">
+          {/* <p className="text-gray-500 text-sm">
             Limited seats available • Registration closes Dec 13
-          </p>
+          </p> */}
         </motion.div>
 
         {/* CONNECT SECTION */}
