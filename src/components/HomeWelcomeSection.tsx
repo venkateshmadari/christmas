@@ -132,8 +132,8 @@ const HomeWelcomeSection = () => {
               together to share the joy of the season...
               <br />
               <br />
-              This is your special invitation to be part of our exclusive
-              Christmas gathering filled with light, love, and lasting memories.
+              {/* This is your special invitation to be part of our exclusive
+              Christmas gathering filled with light, love, and lasting memories. */}
             </p>
 
             {/* <div className="mt-6 pt-6 border-t border-gray-200">
