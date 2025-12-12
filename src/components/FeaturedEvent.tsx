@@ -78,7 +78,7 @@ const FeaturedEvent = () => {
 
   return (
     <>
-      <div className="w-full px-4 md:px-[10%] py-4 md:py-8">
+      <div className="w-full px-4 md:px-[10%] py-4 md:py-8 overflow-x-hidden">
         <div className="flex items-center w-full">
           <span className="h-px bg-primary/20 w-full" />
           <span className="uppercase px-3 my-6 tracking-wider text-primary text-nowrap text-xs md:text-sm font-semibold">
@@ -89,13 +89,13 @@ const FeaturedEvent = () => {
       </div>
 
       {/* YouTube Thumbnails Carousel */}
-      <div className="w-full px-4 md:px-[10%]">
+      <div className="w-full px-4 md:px-[10%] overflow-x-hidden">
         {/* Main Carousel */}
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative max-w-6xl mx-auto overflow-hidden">
           {/* Navigation Buttons */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-[37%] md:top-[40%] -translate-y-1/2 z-20 bg-white/90 hover:bg-white p-2 md:p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 -translate-x-1/2 sm:-translate-x-4"
+            className="absolute left-2 md:left-4 top-[37%] md:top-[40%] -translate-y-1/2 z-20 bg-white/90 hover:bg-white p-2 md:p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
             aria-label="Previous slide"
           >
             <FaChevronLeft className="text-primary text-lg md:text-xl" />
@@ -103,7 +103,7 @@ const FeaturedEvent = () => {
 
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-[37%] md:top-[40%] -translate-y-1/2 z-20 bg-white/90 hover:bg-white p-2 md:p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 translate-x-1/2 sm:translate-x-4"
+            className="absolute right-2 md:right-4 top-[37%] md:top-[40%] -translate-y-1/2 z-20 bg-white/90 hover:bg-white p-2 md:p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
             aria-label="Next slide"
           >
             <FaChevronRight className="text-primary text-lg md:text-xl" />
@@ -132,12 +132,12 @@ const FeaturedEvent = () => {
           </div>
 
           {/* Thumbnails Strip */}
-          <div className="mt-4 md:mt-6">
-            <div className="flex gap-3 md:gap-4 overflow-x-auto pb-3 md:pb-4 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] px-2">
+          <div className="mt-4 md:mt-6 overflow-hidden">
+            <div className="flex gap-2 md:gap-4 overflow-x-auto pb-3 md:pb-4 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] px-0 sm:px-2">
               {youtubeLinks.map((item, index) => (
                 <div
                   key={item.id}
-                  className={`flex-shrink-0 w-24 md:w-40 cursor-pointer transition-all duration-300 ${
+                  className={`flex-shrink-0 w-20 md:w-40 cursor-pointer transition-all duration-300 ${
                     index === activeIndex ? "" : "opacity-70 hover:opacity-100"
                   }`}
                   onClick={() => goToSlide(index)}
@@ -161,7 +161,7 @@ const FeaturedEvent = () => {
           </div>
 
           {/* Dots Indicator */}
-          <div className="flex justify-center gap-1.5 md:gap-2 mt-4 md:mt-6">
+          <div className="flex justify-center gap-1.5 md:gap-2 mt-4 md:mt-6 px-2">
             {youtubeLinks.map((_, index) => (
               <button
                 key={index}

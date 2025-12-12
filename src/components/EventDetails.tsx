@@ -66,13 +66,12 @@ const EventDetails = () => {
         {/* Event Address Section - MOVED HERE */}
         <motion.div className="my-6 md:my-8" variants={fadeUp}>
           <p className="uppercase text-sm text-white/90 tracking-wider mb-2">
-            Event Address
+            Church Address
           </p>
           <p className="text-white text-base leading-relaxed font-semibold">
-            NKNR Gardens <br />
-            Pillar No. 846, 847 <br />
-            Moosapet – Kukatpally Main Road <br />
-            Hyderabad
+            Dine Inn Chinna Banquet Hall <br />
+            Pillar No. 600 <br />
+            Miyapur, Hyderabad
           </p>
 
           {/* Location Pin/Map Link */}

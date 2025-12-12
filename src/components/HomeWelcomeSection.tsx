@@ -76,7 +76,7 @@ const HomeWelcomeSection = () => {
           </motion.p>
 
           <motion.h1
-            className="text-4xl font-bold font-bricolage text-gray-800 text-center"
+            className="text-4xl md:text-5xl font-semibold font-bricolage text-gray-800 text-center"
             variants={letter}
           >
             Welcome to
@@ -84,7 +84,7 @@ const HomeWelcomeSection = () => {
 
           {/* LETTER BY LETTER AROMA CHRISTMAS */}
           <motion.h2
-            className="text-5xl  font-bold font-bricolage tracking-wider text-primary text-center flex overflow-hidden"
+            className="text-4xl md:text-7xl font-bold font-bricolage tracking-wider text-primary text-center flex overflow-hidden"
             variants={letterContainer}
           >
             {aromaText.map((char, i) => (
