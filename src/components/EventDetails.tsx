@@ -60,13 +60,13 @@ const EventDetails = () => {
           className="text-white text-center text-sm md:text-base font-semibold mt-2"
           variants={fadeUp}
         >
-          Chrush servies starts from 06:00 PM
+          Church servies starts from 06:00 PM
         </motion.p>
 
         {/* Event Address Section - MOVED HERE */}
         <motion.div className="my-6 md:my-8" variants={fadeUp}>
           <p className="uppercase text-sm text-white/90 tracking-wider mb-2">
-            Church Address
+            church Address
           </p>
           <p className="text-white text-base leading-relaxed font-semibold">
             Dine Inn Chinna Banquet Hall <br />
